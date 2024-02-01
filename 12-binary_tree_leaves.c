@@ -3,11 +3,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_leaves - Conta le foglie in un albero binario
- * @tree: Puntatore al nodo radice dell'albero
- *
- * Return: Numero di foglie dell'albero, 0 se tree è NULL
- */
+* binary_tree_leaves - Counts the leaves in a binary tree
+* @tree: Pointer to the root node of the tree
+*
+* Return: Number of leaves in the tree, 0 if tree is NULL
+*/
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
 	if (tree == NULL)
