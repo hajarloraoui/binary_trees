@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * _binary_tree_height - Calcola l'altezza di un albero binario
- * @tree: Puntatore al nodo radice dell'albero
- *
- * Return: Altezza dell'albero, 0 se tree è NULL
- */
+* _binary_tree_height - Calculates the height of a binary tree
+* @tree: Pointer to the root node of the tree
+*
+* Return: Height of the tree, 0 if tree is NULL
+*/
 size_t _binary_tree_height(const binary_tree_t *tree)
 {
 	size_t r_height, l_height;
