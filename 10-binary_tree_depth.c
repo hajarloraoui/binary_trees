@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include "binary_trees.h"
 
+
 /**
- * binary_tree_depth - Calcola la profondità di un nodo in un albero binario
- * @tree: Puntatore al nodo di cui calcolare la profondità
- *
- * Return: Profondità del nodo, 0 se tree è NULL
- */
+* binary_tree_depth - Calculates the depth of a node in a binary tree
+* @tree: Pointer to the node to calculate the depth of
+*
+* Return: Depth of the node, 0 if tree is NULL
+*/
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
 	size_t depth = 0;
