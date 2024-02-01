@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include "binary_trees.h"
 
+
 /**
- * binary_tree_size - Misura la dimensione di un albero binario
- * @tree: Puntatore al nodo radice dell'albero di cui misurare la dimensione
- *
- * Return: Dimensione dell'albero, 0 se tree è NULL
- */
+* binary_tree_size - Measures the size of a binary tree
+* @tree: Pointer to the root node of the tree to measure the size of
+*
+* Return: Size of the tree, 0 if tree is NULL
+*/
 size_t binary_tree_size(const binary_tree_t *tree)
 {
 	size_t size = 0;
